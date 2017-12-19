@@ -1,0 +1,8 @@
+<?php
+
+echo "View: Index<br><br>";
+
+foreach ($this->view->servicos as $servicos){
+    echo $servicos["nome"]."-".$servicos["descricao"];
+    echo "<hr>";
+}
