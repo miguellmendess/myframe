@@ -7,7 +7,7 @@ class Conn
 {
     public static function getDb()
     {
-        return new \PDO("mysql:host=localhost;dbname=iservice","root","");
+        return new \PDO("mysql:host=localhost;dbname=essentiapharma_teste","root","");
     }
 
 }
